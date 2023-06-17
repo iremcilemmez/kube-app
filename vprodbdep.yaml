@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: thczzz/vprofiledb:latest
+          image: iremcilemmez/vprofiledb:latest
           securityContext:
             runAsUser: 999
           volumeMounts:
